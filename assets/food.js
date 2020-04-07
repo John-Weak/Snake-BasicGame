@@ -8,7 +8,7 @@ class Food {
 
     }
 
-    randomFoodSpawn(snakebodyies) {
+    randomSpawn(snakebodyies) {
         let x = Math.floor(random(0, this.maxrandomX)) * this.size;
         let y = Math.floor(random(0, this.maxrandomY)) * this.size;
         let condition = true;
